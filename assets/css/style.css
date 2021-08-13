@@ -215,8 +215,17 @@ section p, a{
         width: 80%;
     }
 }
+
 @media screen and (max-width: 865px) {
     .hero span {
         margin-left: 0;
+    }
+}
+@media screen and (max-width: 320px) {
+    .secondary {
+        height: 600px;
+        width: 10vw;
+        margin: 20px;
+        padding: 15px 20px;
     }
 }
