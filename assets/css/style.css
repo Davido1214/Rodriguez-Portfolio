@@ -6,6 +6,47 @@ body {
     color: rgb(255, 255, 255);
     margin: 0;
 }
+
+/* header start */
+header {
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 20px 0px 20px;
+    margin: 0;
+    flex-wrap: wrap;
+    top: 0;
+    background-color: whitesmoke;
+    font-weight: bold;
+    position: sticky;
+}
+.hover-nav a:hover {
+    color: whitesmoke;
+    background-color: rgb(90, 122, 128);
+    padding: 5px;
+    border-radius: 15px;
+}
+header h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    vertical-align: center;
+}
+
+header nav span {
+    font-size: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+    margin: 10;
+}
+
+header a{
+    color: rgb(90, 122, 128);
+    text-decoration: none;
+}
+/* header end */
+
 /* Project example Section Start */
 section aside {
     display: flex;
@@ -52,6 +93,8 @@ section aside img:hover {
 }
 /* Project Example Section End */
 
+/* Hero Section */
+
 .hero {
     display: flex;
     flex-wrap: wrap;
@@ -79,44 +122,10 @@ div p span{
     margin-left: 5px;
     font-weight: bolder;
 }
-header {
-    display: flex;
-    justify-content:space-between;
-    padding: 0px 20px 0px 20px;
-    margin: 0;
-    flex-wrap: wrap;
-    top: 0;
-    background-color: whitesmoke;
-    font-weight: bold;
-    position: sticky;
-}
-.hover-nav a:hover {
-    color: whitesmoke;
-    background-color: rgb(90, 122, 128);
-    padding: 5px;
-    border-radius: 15px;
-}
-header h1 {
-    font-size: 30px;
-    margin-bottom: 0px;
-    vertical-align: center;
-}
 
-header nav span {
-    font-size: 20px;
-}
+/* hero end */
 
-
-nav ul li {
-    list-style-type: none;
-    float: left;
-    margin: 10;
-}
-
-header a{
-    color: rgb(90, 122, 128);
-    text-decoration: none;
-}
+/* Contact Info */
 
 section ul {
     display: flex;
@@ -140,7 +149,9 @@ section p, a{
     margin: 0;
     padding: 0;
 }
+/* Contact Info */
 
+/* Mobile Screens Start */
 @media screen and (max-width: 1025px){
     header{
         padding-bottom: 0;
