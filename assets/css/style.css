@@ -1,0 +1,175 @@
+body {
+    background-color: rgb(90, 122, 128);
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("");
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+/* Project example Section Start */
+section aside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 10px;
+}
+section aside iframe {
+    border: 2px solid rgb(90, 122, 128);
+    width: 70%;
+    height: 100%;
+}
+.projects p {
+    line-height: 30px;
+}
+
+ .main-project {
+    width: 60%;
+    height: 400px;
+}
+
+.projects {
+    display: flex;
+    background-color: whitesmoke;
+    color: rgb(90, 122, 128);
+}
+/* Project Example Section End */
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.hero img {
+    float: left;
+    border-radius: 150px 150px;
+}
+
+div p {
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: top;
+    padding: 10px 10px;
+    margin: 10px auto;
+}
+div p span{
+    margin-left: 5px;
+    font-weight: bolder;
+}
+header {
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 20px 0px 20px;
+    margin: 0;
+    flex-wrap: wrap;
+    top: 0;
+    background-color: whitesmoke;
+    font-weight: bold;
+    position: sticky;
+}
+header h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    vertical-align: center;
+}
+
+header nav span {
+    font-size: 20px;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    float: left;
+    margin: 10;
+}
+
+header a{
+    color: rgb(90, 122, 128);
+    text-decoration: none;
+}
+
+section ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 16px; */
+    width: 93%;
+}
+section ul li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+section p, a{
+    text-decoration: none;
+}
+
+.contact-info, a{
+    font-weight: bold;
+    color: whitesmoke;
+    margin: 0;
+}
+
+@media screen and (max-width: 1025px){
+    header{
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul{
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    .hero{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .hero div{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact-info {
+        text-align: center;
+        width: 100%;
+    }
+
+    section aside {
+        flex: 0 70%;
+    }
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 865px) {
+    .hero span {
+        margin-left: 0;
+    }
+}
