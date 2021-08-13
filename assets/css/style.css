@@ -175,9 +175,23 @@ section p, a{
         flex-wrap: wrap;
         align-content: center;
     }
+    aside img{
+        width: 5%;
+        height: 5%;
+    }
+    aside p {
+        padding: 10px 15px;
+        height: 100%;
+        font-size: 13px;
+    }
+
     .hero div{
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
+        margin: 20px;
+        height: 100%;
+        padding: 30px 20px;
         align-content: center;
         justify-content: center;
     }
