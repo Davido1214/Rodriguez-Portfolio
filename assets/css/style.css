@@ -30,6 +30,16 @@ section aside iframe {
     height: 400px;
 }
 
+.secondary{
+    width: 50%;
+    padding: 15px;
+    height: 500px;
+}
+.secondary p{
+    width: 65%;
+    height:600px
+}
+
 .projects {
     display: flex;
     background-color: whitesmoke;
@@ -117,6 +127,7 @@ section p, a{
     font-weight: bold;
     color: whitesmoke;
     margin: 0;
+    padding: 0;
 }
 
 @media screen and (max-width: 1025px){
