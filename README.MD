@@ -7,5 +7,5 @@
 ## Webpage Link
     https://davido1214.github.io/Rodriguez-Portfolio/
 ## Webpage Preview
-    ![screenshot](./assets/imgaes/webPreview.png)
+![screenshot](./assets/images/webPreview.png)
     
